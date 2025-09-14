@@ -1,0 +1,20 @@
+streamlit
+langchain>=0.2.0
+langchain-community>=0.2.0
+langchain-openai>=0.1.0
+openai>=1.30.0
+faiss-cpu
+python-dotenv
+tiktoken
+
+# robust PDF extraction
+pymupdf
+pdfplumber
+PyPDF2
+
+# fallback embeddings (no API)
+sentence-transformers
+torch
+
+# web search tool
+duckduckgo-search
